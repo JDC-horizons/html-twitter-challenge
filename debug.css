@@ -1,0 +1,73 @@
+/* blue */
+.dbg-bg-blue {
+  background-color: #8da2fc;
+}
+
+.dbg-border-blue {
+  border: 2px dotted #76a9fa;
+}
+/* gray */
+.dbg-bg-gray {
+  background-color: #6b7280;
+}
+
+.dbg-border-gray {
+  border: 2px dotted #6b7280;
+}
+/* red */
+.dbg-bg-red {
+  background-color: #f98080;
+}
+
+.dbg-border-red {
+  border: 2px dotted #f98080;
+}
+
+/* green */
+.dbg-bg-green {
+  background-color: #def7ec;
+}
+
+.dbg-border-green {
+  border: 2px dotted #30c48d;
+}
+
+/* yellow */
+.dbg-bg-yellow {
+  background-color: #fdf6b2;
+}
+
+.dbg-border-yellow {
+  border: 2px dotted #faca16;
+}
+
+/* indigo */
+.dbg-bg-indigo {
+  background-color: #e4edff;
+}
+
+.dbg-border-indigo {
+  border: 2px dotted #8da2fc;
+}
+
+/* purple */
+.dbg-bg-purple {
+  background-color: #edebfe;
+}
+
+.dbg-border-purple {
+  border: 2px dotted #ac94fa;
+}
+
+/* pink */
+.dbg-bg-pink {
+  background-color: #fce8f3;
+}
+
+.dbg-border-pink {
+  border: 2px dotted #f17eb8;
+}
+
+.dbg-border-margin {
+  margin: 2px;
+}

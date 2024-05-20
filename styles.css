@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1.8fr 1fr;
+  grid-template-rows: 70px auto;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header.logo {
+  margin-left: 60px;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: start;
+  align-content: center;
+}
+
+.logo img {
+  border-radius: 50%;
+  height: 50px;
+  width: auto;
+}
+
+.title-bar {
+  line-height: 70px;
+}
+
+.title-bar p {
+  font-size: 35px;
+  margin-left: 5px;
+}
+
+.search-bar {
+  margin: 8px 60px 8px 0;
+  padding-left: 15px;
+  height: 54px;
+  display: grid;
+  grid-template-columns: 30px auto;
+  align-content: center;
+  border-radius: 30px;
+}
+
+.search-bar img {
+  height: 20px;
+  width: 20px;
+}
+
+.search-bar p {
+  margin: auto 0;
+}
+
+main {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.aside.left {
+  grid-column: 1;
+  grid-row: 2;
+  margin-left: 60px;
+  position: relative;
+}
+
+.left.aside img {
+  height: 40px;
+  width: 40px;
+}
+
+.nav-button {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.nav-button p {
+  font-size: 25px;
+}
+
+.twoot-button {
+  height: 50px;
+  line-height: 50px;
+  width: auto;
+  background-color: antiquewhite;
+  text-align: center;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.twoot-button p {
+  line-height: 50px;
+}
+
+.user-controls {
+  position: absolute;
+  bottom: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  margin-left: 25px;
+  gap: 10px;
+}
+
+.user-img {
+  border-radius: 50%;
+}
+
+.aside.right {
+  grid-column: 3;
+  grid-row: 2;
+  margin-right: 60px;
+}
+
+.box {
+  border-radius: 15px;
+  background-color: white;
+  min-height: 70px;
+}
+
+.box p {
+  font-size: 35px;
+  margin: 12px 0 12px 5px;
+  border-bottom: 1px solid grey;
+}
+
+.user-icon {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 4px;
+  justify-self: center;
+}
+
+.twoot-controls {
+  display: grid;
+  grid-template-columns: 65px auto 80px;
+  grid-template-rows: auto auto;
+  border: 1px dotted black;
+}
+
+.twoot-input {
+  grid-column: 2 / -1;
+  grid-row: 1;
+}
+
+.small-buttons {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.twoot-button-main {
+  grid-column: 3;
+  grid-row: 2;
+  height: 30px;
+  width: auto;
+  background-color: antiquewhite;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.twoot-controls .svg {
+  height: 30px;
+  width: 30px;
+}
+
+.twoot {
+  display: grid;
+  grid-template-columns: 65px auto;
+  grid-template-rows: 26px 26px 34px;
+}
+
+.twoot .twoot-topline {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.twoot .twoot-text {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.twoot .inner-twoot-controls {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.twoot-topline p {
+  display: inline;
+}
+
+.twoot .svg {
+  height: 20px;
+  width: 20px;
+}
