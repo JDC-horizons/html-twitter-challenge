@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="debug.css" />
+    <!-- <link rel="stylesheet" href="debug.css" /> -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -13,41 +13,43 @@
     </header>
     <header class="search-bar dbg-bg-blue">
       <img src="svg/search.svg" />
-      <p>Search Twooter</p>
+      <input type="text" placeholder="Search Twooter" />
     </header>
     <aside class="left aside dbg-bg-red">
-      <div class="nav-button">
-        <img src="svg/home.svg" />
+      <button class="nav-button">
+        <img id="svg-ex" src="svg/home.svg" />
         <p>Home</p>
-      </div>
-      <div class="nav-button">
+      </button>
+      <button class="nav-button">
         <img src="svg/explore.svg" />
         <p>Explore</p>
-      </div>
-      <div class="nav-button">
+      </button>
+      <button class="nav-button">
         <img src="svg/notifications.svg" />
         <p>Notifications</p>
-      </div>
-      <div class="nav-button">
+      </button>
+      <button class="nav-button">
         <img src="svg/messages.svg" />
         <p>Messages</p>
-      </div>
-      <div class="nav-button">
+      </button>
+      <button class="nav-button">
         <img src="svg/lists.svg" />
         <p>Lists</p>
-      </div>
-      <div class="nav-button">
+      </button>
+      <button class="nav-button">
         <img src="svg/profile.svg" />
         <p>Profile</p>
-      </div>
-      <div class="nav-button">
+      </button>
+      <button class="nav-button">
         <img src="svg/more.svg" />
         <p>More</p>
-      </div>
-      <div class="twoot-button"><p>Twoot</p></div>
+      </button>
+      <button class="twoot-button"><p>Twoot</p></button>
       <div class="user-controls">
         <img src="images/james.jpg" class="user-img" />
-        <p class="user-name">James<br />@jdc-horizons</p>
+        <p class="user-name">
+          James<br /><span style="font-weight: 100">@jdc-horizons</span>
+        </p>
       </div>
     </aside>
     <main class="main-section dbg-bg-blue">
@@ -65,24 +67,63 @@
           <img src="svg/emoji.svg" class="svg" />
           <img src="svg/schedule.svg" class="svg" />
         </div>
-        <p class="twoot-button-main">Twoot</p>
+        <button class="twoot-button-container">
+          <p class="twoot-button-main">Twoot</p>
+        </button>
       </div>
-      <div class="break">
-        <div class="twoot">
-          <img src="images/james.jpg" class="user-icon" alt="You!" />
-          <div class="twoot-topline">
+      <div class="break"></div>
+      <div class="twoot">
+        <img src="images/james.jpg" class="user-icon" alt="You!" />
+        <div class="twoot-topline">
           <p class="user-name">James</p>
           <p class="user-handle">@jdc-horizons</p>
           <p class="time">20m</p>
-          </div>
-          <p class="twoot-text"><span>@Ezeikel @Carlo</span> What do you guys think of Twooter?</p>
-          <div class="inner-twoot-controls">
-            <img class="svg" src="svg/reply.svg">
-            <img class="svg" src="svg/retwoot.svg">
-            <img class="svg" src="svg/fav.svg">
-            <img class="svg" src="svg/view.svg">
-          </div>
         </div>
+        <p class="twoot-text">
+          <span class="tag-text">@Ezeikel @Carlo</span> What do you guys think
+          of Twooter?
+        </p>
+        <div class="inner-twoot-controls">
+          <img class="svg" src="svg/reply.svg" />
+          <img class="svg" src="svg/retwoot.svg" />
+          <img class="svg" src="svg/fav.svg" />
+          <img class="svg" src="svg/view.svg" />
+        </div>
+      </div>
+      <div class="twoot">
+        <img src="images/ezeikel.png" class="user-icon" alt="Another user" />
+        <div class="twoot-topline">
+          <p class="user-name">Ezeikel</p>
+          <p class="user-handle">@ezeikel0887</p>
+          <p class="time">25m</p>
+        </div>
+        <p class="twoot-text">
+          <span class="tag-text">@James</span> Looks good to me!
+        </p>
+        <div class="inner-twoot-controls">
+          <img class="svg" src="svg/reply.svg" />
+          <img class="svg" src="svg/retwoot.svg" />
+          <img class="svg" src="svg/fav.svg" />
+          <img class="svg" src="svg/view.svg" />
+        </div>
+      </div>
+      <div class="twoot">
+        <img src="images/carlo.png" class="user-icon" alt="You!" />
+        <div class="twoot-topline">
+          <p class="user-name">Carlo</p>
+          <p class="user-handle">@dogezen</p>
+          <p class="time">30m</p>
+        </div>
+        <p class="twoot-text">
+          <span class="tag-text">@James</span> Agreed, nice!
+        </p>
+        <div class="inner-twoot-controls">
+          <img class="svg" src="svg/reply.svg" />
+          <img class="svg" src="svg/retwoot.svg" />
+          <img class="svg" src="svg/fav.svg" />
+          <img class="svg" src="svg/view.svg" />
+        </div>
+      </div>
     </main>
     <aside class="right aside dbg-bg-red">
       <div class="box">
